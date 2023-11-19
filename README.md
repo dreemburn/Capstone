@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Game of Thrones Character React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+
+Welcome to my React project! This is a Game of Thrones characters App made in Javascript and this project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It allows the user to view the characters and when a user chooses a character it will display all relavent characters, classes, and info. Fetched through https://anapioficeandfire.com/api.
+I hope you enjoy and look forward to any contributions.
 
 ## Available Scripts
 
