@@ -5,6 +5,20 @@
 Welcome to my React project! This is a Game of Thrones characters App made in Javascript and this project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It allows the user to view the characters and when a user chooses a character it will display all relavent characters, classes, and info. Fetched through https://anapioficeandfire.com/api.
 I hope you enjoy and look forward to any contributions.
 
+## Contributing
+
+I welcome all contributions. Here are some ways to get started:
+
+Report bugs: If you encounter any bugs, please let me know. Open up an issue and let me know the problem.
+Contribute code: If you are a developer and want to contribute, follow the instructions below to get started!
+
+## Instructions
+Fork this repository
+Clone the forked repository
+Add your contributions (code or documentation)
+Commit and push
+Wait for pull request to be merged
+
 ## Available Scripts
 
 In the project directory, you can run:
