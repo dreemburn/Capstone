@@ -23,6 +23,41 @@ const Character = ({ match }) => {
     fetchCharacter();
   }, [match.params.id]);
 
+  
+  const handleNavigation = (page, pageSize) => {
+    
+  };
+
+  const handlePageChange = (newPage) => {
+    handleNavigation(newPage, pageSize);
+  };
+
+  const handlePageSizeChange = (newPageSize) => {
+    handleNavigation(1, newPageSize);
+  };
+
+  const onPageChange = (newPage) => {
+    if (isValidPage(newPage)) {
+      handlePageChange(newPage);
+    }
+  };
+
+  const onPageSizeChange = (newPageSize) => {
+    if (isValidPageSize(newPageSize)) {
+      handlePageSizeChange(newPageSize);
+    }
+  };
+
+  const isValidPage = (page) => {
+    
+    return true;
+  };
+
+  const isValidPageSize = (pageSize) => {
+    
+    return true;
+  };
+
   if (loading) {
     return <Loading />;
   }
